@@ -1,13 +1,18 @@
-var elem = document.querySelector('.grid');
-var iso = new Isotope( elem, {
-  // options
-  itemSelector: '.grid-item',
-  layoutMode: 'fitRows',
-  transitionDuration: "0.6s" 
-});
+const filter_btns = document.querySelectorAll(".filter-btn");
 
-// element argument can be a selector string
-//   for an individual element
-var iso = new Isotope( '.grid', {
-  // options
+filter_btns.forEach((btn) =>
+  btn.addEventListener("click", () => {
+    filter_btns.forEach((button) => button.classList.remove("active"));
+    btn.classList.add("active");
+
+    let filterValue = btn.dataset.filter;
+
+    $(".grid").isotope({ filter: filterValue });
+  })
+);
+
+$(".grid").isotope({
+  itemSelector: ".grid-item",
+  layoutMode: "fitRows",
+  transitionDuration: "0.6s",
 });
