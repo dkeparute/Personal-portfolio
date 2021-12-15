@@ -487,7 +487,7 @@ header .guarantee {
 }
 
 .plus:after {
-    transform: translate(-50%, -50%) rotate(90deg);;
+    transform: translate(-50%, -50%) rotate(90deg);
 }
 
 .img-description {
@@ -511,13 +511,99 @@ header .guarantee {
     transform: translate(-50%, -50%) scale(1.1);
 }
 
-.more-folio{
+.more-folio {
     display: flex;
     justify-content: center;
 }
 /* PORTFOLIO END */
 
 /* ABOUT ME START */
+.about {
+    overflow: hidden;
+}
 
+.about img {
+    max-width: 600px;
+}
+
+.about .text {
+    margin-top: 1rem;
+}
+
+.skills {
+    margin: 1.5rem 0 2.5rem 0;
+}
+
+.skill {
+    margin: 1rem 0;
+}
+.skill-title {
+    color: #555;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.skill-bar {
+    width: 70%;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #ece6fa;
+    position: relative;
+    overflow: hidden;
+}
+
+.skill-progress {
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: 0;
+    background-color: var(--main-color);
+    transition: 1s;
+}
+
+.about .column-1 {
+    position: relative;
+}
+
+.about .column-1:before {
+    content: "About me";
+    position: absolute;
+    font-size: 8rem;
+    font-weight: 800;
+    color: var(--main-color);
+    opacity: 0.04;
+    top: 0;
+    left: 0;
+    line-height: 0;
+}
 
 /* ABOUT ME END */
+
+/* RECORDS START */
+.records {
+    position: relative;
+    background-color: var(--main-color);
+    padding: 5.2rem 0;
+}
+
+.records .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+}
+.record-circle{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 4px solid var(--light-one);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* RECORDS END */
