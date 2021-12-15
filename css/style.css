@@ -669,7 +669,7 @@ header .guarantee {
 .blog-image img {
     position: absolute;
     height: 105%;
-    width: inherit;
+    /* width: initial; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
