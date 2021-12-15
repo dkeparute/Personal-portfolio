@@ -625,3 +625,22 @@ header .guarantee {
     text-transform: uppercase;
   }
 /* RECORDS END */
+
+/* BLOG START */
+.blog-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.blog-wrap{
+    margin: 1.3rem 0.5rem;
+}
+
+.blog-card{
+    max-width: 420px;
+    width: 100%;
+}
+/* BLOG START */
