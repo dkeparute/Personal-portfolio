@@ -736,14 +736,13 @@ header .guarantee {
 
 .review {
     position: relative;
-    position: relative;
     padding: 2rem 1.5rem;
 }
 
-.quote{
+.quote {
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     color: var(--main-color);
     opacity: 0.04;
     font-size: 8rem;
@@ -783,7 +782,26 @@ header .guarantee {
     color: #777;
 }
 
-.swiper-button-prev:after, .swiper-button-next:after{
-display: none;
+.review-nav {
+    bottom: 7.2rem;
+    top: initial;
+    font-size: 1.8rem;
+    color: var(--main-color);
 }
+
+.swiper-button-next {
+    right: 2rem;
+    left: 30rem;
+}
+
+.swiper-button-prev {
+    right: 4.5rem;
+    left: 27rem;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    display: none;
+}
+
 /* TESTIMONIALS END */
