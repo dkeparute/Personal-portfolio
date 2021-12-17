@@ -1,2 +1,0 @@
-// Funkcinis arba objektinis programavimas
-
