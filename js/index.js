@@ -1,11 +1,9 @@
 // Valdymo centras
 
 import { ProgressBar } from "./components/ProgressBar.js";
+import { progressBarData } from "./data/progressBarData.js";
 
-new ProgressBar();
-
-
-
+new ProgressBar('.skills', progressBarData);
 
 
 
