@@ -1,0 +1,22 @@
+/* base */
+@import '../css/base/layout.css';
+@import '../css/base/reset.css';
+@import '../css/base/variables.css';
+
+/* 3rd party */
+
+/* components */
+@import './components/about.css';
+@import './components/blog.css';
+@import './components/contact.css';
+@import './components/footer.css';
+@import './components/header.css';
+@import './components/hire.css';
+@import './components/portfolio.css';
+@import './components/records.css';
+@import './components/services.css';
+@import './components/testimonials.css';
+
+
+/* CUSTOM STYLE BELOW THIS COMMENT LINE */
+

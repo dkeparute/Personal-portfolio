@@ -1,0 +1,2 @@
+// Funkcinis arba objektinis programavimas
+
