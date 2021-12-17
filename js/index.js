@@ -1,5 +1,9 @@
 // Valdymo centras
 
+import { ProgressBar } from "./components/ProgressBar.js";
+
+new ProgressBar();
+
 
 
 

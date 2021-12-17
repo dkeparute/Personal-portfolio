@@ -1,9 +1,9 @@
 // Funkcinis arba objektinis programavimas
 
-class ProgressBars{
+class ProgressBar{
     constructor(){
         console.log('runing');
     }
 }
 
-export {ProgressBars};
+export {ProgressBar};
