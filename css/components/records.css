@@ -1,5 +1,3 @@
-/* Records */
-
 .records {
     position: relative;
     background-color: var(--main-color);
@@ -84,6 +82,3 @@
     top: 30px;
     right: 50%;
   }
-  
-  /* End Records */
-  

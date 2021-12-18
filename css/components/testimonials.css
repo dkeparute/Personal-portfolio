@@ -1,5 +1,3 @@
-/* Testimonials */
-
 .testimonials {
     background-color: var(--light-two);
     overflow: hidden;
@@ -83,4 +81,3 @@
     display: none;
   }
   
-  /* End Testimonials */

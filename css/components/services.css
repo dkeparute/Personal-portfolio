@@ -1,5 +1,3 @@
-/* Services */
-
 .cards {
     display: flex;
     justify-content: space-around;
@@ -86,4 +84,3 @@
     pointer-events: none;
   }
   
-  /* End Services */
