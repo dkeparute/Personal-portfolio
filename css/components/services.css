@@ -1,86 +1,62 @@
-.cards {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-  
-  .card-wrap {
+.services {
+    background-color: var(--main-color);
+    padding: 5.2rem 0;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.title {
+    display: inline-block;
+    padding-bottom: 1rem;
+    color: var(--light-one);
+    line-height: 1;
+    font-size: 2.8rem;
     position: relative;
-    margin: 1.7rem 0.8rem;
-  }
-  
-  .card {
-    position: relative;
-    width: 100%;
-    max-width: 390px;
-    min-height: 520px;
-    background-color: var(--light-three);
-    display: flex;
+    margin-bottom: 0.6rem;
+}
+
+.services .section-header > .text {
+    color: var(--light-two);
+}
+
+h4{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.services > .container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 3rem 2rem;
-    overflow: hidden;
-    transition: 0.3s;
-  }
-  
-  .card:before {
-    content: attr(data-card);
-    position: absolute;
-    top: -15px;
-    right: -15px;
-    font-size: 6rem;
-    font-weight: 800;
-    line-height: 1;
-    color: var(--main-color);
-    opacity: 0.025;
-  }
-  
-  .card:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 0px;
-    bottom: 0;
-    left: 0;
-    background-color: var(--main-color);
-    transition: 0.3s;
-  }
-  
-  .card-wrap:hover .card {
-    transform: translateY(-15px);
-  }
-  
-  .card-wrap:hover .card:after {
-    height: 8px;
-  }
-  
-  .icon {
-    width: 90px;
-    margin-bottom: 1.7rem;
-  }
-  
-  .card .title-sm {
-    line-height: 0.8;
-  }
-  
-  .card .text {
-    font-size: 1.15rem;
-    margin: 1.8rem 0;
-  }
-  
-  .services .points1 {
-    bottom: -50px;
-    left: -125px;
-    opacity: 0.2;
-    pointer-events: none;
-  }
-  
-  .services .points2 {
-    bottom: -70px;
-    right: -65px;
-    opacity: 0.2;
-    pointer-events: none;
-  }
-  
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+}
+
+.circle {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 4px solid var(--hover-color);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--hover-color);
+    background-image: url('../../img/hero/cover.jpg');
+    transition: 1s;
+
+}
+
+.circle:hover{
+    color:var(--main-color);
+    font-weight: 600;
+    cursor: pointer;
+    transform: rotate(-360deg);
+    transition: 1.5s;
+
+}
