@@ -18,6 +18,7 @@
         <div class="overlay">
             <img src="./img/hero/cover.jpg" alt="background cover">
         </div>
+
         <nav>
             <div class="container">
                 <!-- Logo -->
@@ -68,6 +69,7 @@
                 Front-end development
             </p>
         </div>
+
         <div class="container">
             <div class="wrap">
                 <div class="circle">
@@ -109,6 +111,7 @@
                 <div class="column-1 image">
                     <img src="./img/hero/hero.jpg" alt="woman">
                 </div>
+
                 <div class="column-2">
                     <h3 class="title-sm">Hello I am developer,</h3>
                     <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, amet.</p>
@@ -172,11 +175,12 @@
                 <img src="./img/hero/cover.jpg" alt="ice">
             </div>
         </div>
-        </div>
+
         <div class="container">
             <div class="section-header">
                 <h3 class="title" data-title="My works">Portfolio</h3>
             </div>
+
             <div class="section-body">
                 <div class="filter">
                     <button class="filter-btn active">All works</button>
@@ -186,36 +190,77 @@
                     <button class="filter-btn">Node</button>
                     <button class="filter-btn">HTML</button>
                 </div>
+
                 <!-- Isotope works on a container element with a group of similar child items. -->
                 <div class="grid">
-                    <div class="grid-item">
-                        <div class="gallery-image">
-                            <img src="./img/portfolio/port1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="grid-item">
-                        <div class="gallery-image">
-                            <img src="./img/portfolio/port.node.png" alt="">
-                        </div>
-                    </div>
-                    <div class="grid-item">
-                        <div class="gallery-image">
-                            <img src="./img/portfolio/port.react.png" alt="">
-                        </div>
-                    </div>
-                    <div class="grid-item">
-                        <div class="gallery-image">
-                            <img src="./img/portfolio/port.word.png" alt="">
-                        </div>
-                    </div>
-                    <div class="grid-item">
-                        <div class="gallery-image">
-                            <img src="./img/portfolio/port.js.png" alt="">
-                        </div>
-                    </div>
-                    <div class="grid-item">
+                    <div class="grid-item html">
                         <div class="gallery-image">
                             <img src="./img/portfolio/port.html.png" alt="">
+                            <div class="img-overlay">
+                                <div class="zoom">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                                <div class="img-description">
+                                    <h3>HTML</h3>
+                                    <h5>View work</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item js">
+                        <div class="gallery-image">
+                            <img src="./img/portfolio/port.js.png" alt="">
+                            <div class="img-overlay">
+                                <div class="zoom">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                                <div class="img-description">
+                                    <h3>Javascript</h3>
+                                    <h5>View work</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item node">
+                        <div class="gallery-image">
+                            <img src="./img/portfolio/port.node.png" alt="">
+                            <div class="img-overlay">
+                                <div class="zoom">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                                <div class="img-description">
+                                    <h3>Node</h3>
+                                    <h5>View work</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item react">
+                        <div class="gallery-image">
+                            <img src="./img/portfolio/port.react.png" alt="">
+                            <div class="img-overlay">
+                                <div class="zoom">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                                <div class="img-description">
+                                    <h3>React</h3>
+                                    <h5>View work</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item word">
+                        <div class="gallery-image">
+                            <img src="./img/portfolio/port.word.png" alt="">
+                            <div class="img-overlay">
+                                <div class="zoom">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                                <div class="img-description">
+                                    <h3>Wordpress</h3>
+                                    <h5>View work</h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -226,6 +271,7 @@
 
     <!-- Isotope library -->
     <script src="./javascript/isotope/isotope.pkgd.min.js"></script>
+    <script src="./javascript/isotope/isotope.js"></script>
     <!-- Main Javascript -->
     <script src="./javascript/index.js" type="module" defer></script>
 </body>

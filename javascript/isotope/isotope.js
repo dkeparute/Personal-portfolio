@@ -1,6 +1,14 @@
 /*You can use Isotope with vanilla JS: new Isotope( elem, options ). The Isotope() constructor accepts two arguments: the container element and an options object.*/
 
-let elem = document.querySelector('.grid');
+const filterButtons = document.querySelectorAll(".filter-btn");
+// active button moves
+filterButtons.forEach(btn => btn.addEventListener("click", () => {
+    filterButtons.forEach((button) => button.classList.remove("active"));
+    btn.classList.add("active");
+})
+);
+
+let element = document.querySelector('.grid');
 
 let iso = new Isotope('.grid', {
     // options
@@ -9,4 +17,3 @@ let iso = new Isotope('.grid', {
     transitionDuration: "0.6s"
 });
 
-export {iso};

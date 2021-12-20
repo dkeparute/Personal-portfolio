@@ -1,4 +1,3 @@
-import { iso } from "./isotope/isotope";
 
 // Progress-bar
 const skills = document.querySelector(".skills");
