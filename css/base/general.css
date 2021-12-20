@@ -15,6 +15,11 @@ img {
     margin: 0 auto;
 }
 
+.section {
+    padding: 7rem 0;
+    overflow: hidden;
+  }
+
 html{
     scroll-behavior: smooth;
 }
@@ -23,10 +28,10 @@ b{
     color: var(--main-color);
 }
 
+ /* 1fr = 1 part of the available space */
 .grid-2{
     display: grid;
-    /* 1fr = 1 part of the available space */
-    grid-template-columns: 1fr 1fr;
+       grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
     min-height: calc(100vh-6rem);
@@ -82,10 +87,6 @@ b{
     top: 0;
     left: 0;
     opacity: 0.3;
-}
-
-.section{
-    padding: 7rem 0;
 }
 
 /* What I do */

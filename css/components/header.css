@@ -31,7 +31,7 @@ nav > .container {
     color: var(--dark-one);
     font-size: 1.05rem;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1;
     transition: 0.3s;
 }
@@ -67,8 +67,7 @@ nav > .container {
     margin: 2.15rem 0;
 }
 
-.header-content .image .img-element {
+.header-content .image > .img-element {
     max-width: 500px;
     border: 5px solid var(--main-color);
-    border-radius: 2rem;
 }

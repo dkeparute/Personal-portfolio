@@ -48,7 +48,6 @@
                         <b>REACT</b>,<b> MYSQL</b>. You are welcome to
                         see my projects in the <i>portfolio</i> section.
                     </p>
-                    <a href="#" class="btn">Download CV</a>
                 </div>
                 <div class="column-2 image">
                     <img src="./img/hero/hero.jpg" class="img-element" alt="woman">
@@ -61,6 +60,9 @@
     <!-- Services start -->
     <section class="services section" id="services">
         <div class="section-header">
+            <div class="overlay">
+                <img src="./img/hero/cover.jpg" alt="ice">
+            </div>
             <h3 class="title" data-title="What I do">Services</h3>
             <p class="text">
                 Front-end development
@@ -104,65 +106,128 @@
             </div>
 
             <div class="section-body grid-2">
-                <div class="column-2 image">
+                <div class="column-1 image">
                     <img src="./img/hero/hero.jpg" alt="woman">
                 </div>
-                <div class="column-1">
-                    <h3 class="title-sm">Hello I am developer</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, amet.</p>
+                <div class="column-2">
+                    <h3 class="title-sm">Hello I am developer,</h3>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, amet.</p>
                     <!-- Progress bar -->
                     <div class="skills">
                         <div class="skill html">
                             <h3 class="skill-title">HTML</h3>
                             <div class="skill-bar">
-                                <div class="skill-progress">
+                                <div class="skill-progress" data-progress="70%">
                                 </div>
                             </div>
                         </div>
-                        <div class="skill css">
+                        <div class="skill html">
                             <h3 class="skill-title">CSS</h3>
                             <div class="skill-bar">
-                                <div class="skill-progress">
+                                <div class="skill-progress" data-progress="60%">
                                 </div>
                             </div>
                         </div>
-                        <div class="skill js">
+                        <div class="skill html">
                             <h3 class="skill-title">Javascript</h3>
                             <div class="skill-bar">
-                                <div class="skill-progress">
+                                <div class="skill-progress" data-progress="50%">
                                 </div>
                             </div>
                         </div>
-                        <div class="skill react">
+                        <div class="skill html">
                             <h3 class="skill-title">React</h3>
                             <div class="skill-bar">
-                                <div class="skill-progress">
+                                <div class="skill-progress" data-progress="40%">
                                 </div>
                             </div>
                         </div>
-                        <div class="skill wp">
-                            <h3 class="skill-title">Wordpress</h3>
-                            <div class="skill-bar">
-                                <div class="skill-progress">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skill node">
+                        <div class="skill html">
                             <h3 class="skill-title">Node</h3>
                             <div class="skill-bar">
-                                <div class="skill-progress">
+                                <div class="skill-progress" data-progress="30%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill html">
+                            <h3 class="skill-title">Wordpress</h3>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="20%">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="btn">See projects</div>
+                    <a href="#" class="btn">Download CV</a>
                 </div>
             </div>
         </div>
     </about>
     <!-- About end -->
 
-    <script src="./javascript/index.js" defer></script>
+    <!-- Portfolio start -->
+    <section class="portfolio section" id="portfolio">
+        <div class="background-bg">
+            <!-- background cover -->
+            <div class="overlay">
+                <img src="./img/hero/cover.jpg" alt="ice">
+            </div>
+        </div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <h3 class="title" data-title="My works">Portfolio</h3>
+            </div>
+            <div class="section-body">
+                <div class="filter">
+                    <button class="filter-btn active">All works</button>
+                    <button class="filter-btn">Javascript</button>
+                    <button class="filter-btn">React</button>
+                    <button class="filter-btn">Wordpress</button>
+                    <button class="filter-btn">Node</button>
+                    <button class="filter-btn">HTML</button>
+                </div>
+                <!-- Isotope works on a container element with a group of similar child items. -->
+                <div class="grid">
+                    <div class="grid-item">
+                        <div class="gallery-image">
+                            <img src="./img/portfolio/port1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="gallery-image">
+                            <img src="./img/portfolio/port.node.png" alt="">
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="gallery-image">
+                            <img src="./img/portfolio/port.react.png" alt="">
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="gallery-image">
+                            <img src="./img/portfolio/port.word.png" alt="">
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="gallery-image">
+                            <img src="./img/portfolio/port.js.png" alt="">
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="gallery-image">
+                            <img src="./img/portfolio/port.html.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio end -->
+
+    <!-- Isotope library -->
+    <script src="./javascript/isotope/isotope.pkgd.min.js"></script>
+    <!-- Main Javascript -->
+    <script src="./javascript/index.js" type="module" defer></script>
 </body>
 
 </html>

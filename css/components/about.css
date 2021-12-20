@@ -1,20 +1,40 @@
-.about{
+.about {
     overflow: hidden;
 }
 
-.about img{
+.about > .container > .section-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    margin: 4rem auto;
+}
+
+.about .title {
+    color: var(--main-color);
+}
+
+.about .title:before {
+    color: var(--dark-two);
+}
+
+.about img {
     max-width: 500px;
+    border: 5px solid var(--main-color);
+}
+.about .title-sm {
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 1.6rem;
 }
 
-.about> .text{
+.about .text {
     margin-top: 1rem;
-}
+  }
 
-.skills{
+.skills {
     margin: 1.5rem 0 2.5rem 0;
 }
 
-.skill{
+.skill {
     margin: 1rem 0;
 }
 
@@ -31,23 +51,23 @@
     background-color: var(--light-two);
     position: relative;
     overflow: hidden;
-  }
+}
 
-  .skill-progress {
+.skill-progress {
     position: absolute;
     height: 100%;
-    width: 50%;
+    width: 0%;
     top: 0;
     left: 0;
     background-color: var(--hover-color);
-    transition: 1s;
-  }
+    transition: 2s;
+}
 
-.about .column-1 {
+.about .column-2 {
     position: relative;
-  } 
-  
-  .about .column-1:before {
+}
+
+.about .column-2:before {
     content: "About";
     position: absolute;
     font-size: 8rem;
@@ -57,4 +77,4 @@
     top: 0;
     left: 0;
     line-height: 0;
-  } 
+}
