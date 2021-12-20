@@ -4,6 +4,7 @@
 @import './base/variables.css';
 
 /* Components */
+@import './components/about.css';
 @import './components/header.css';
 @import './components/services.css';
 
