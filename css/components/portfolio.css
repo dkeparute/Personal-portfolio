@@ -1,7 +1,7 @@
 .portfolio {
   position: relative;
   width: 100%;
-  background-image: url(../../img/hero/cover.jpg);
+background-color: var(--main-color);
 }
 
 .background-bg {
@@ -81,7 +81,7 @@
   left: 0;
   z-index: 2;
   color: var(--light-one);
-  background-color:var(--hover-color);
+  background-image: url(../../img/hero/cover.jpg);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -94,6 +94,7 @@
 .img-overlay .zoom {
 font-size: 5rem;
   margin: auto 0;
+  color: var(--hover-color);
 }
 
 .img-description {
@@ -104,11 +105,13 @@ font-size: 5rem;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 1.5rem;
+  color: var(--hover-color);
 }
 
 .img-overlay h5 {
   font-size: 1.15rem;
   font-weight: 300;
+  color: var(--hover-color);
 }
 
 .gallery-image:hover .img-overlay {

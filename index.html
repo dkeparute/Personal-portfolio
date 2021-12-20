@@ -183,12 +183,12 @@
 
             <div class="section-body">
                 <div class="filter">
-                    <button class="filter-btn active">All works</button>
-                    <button class="filter-btn">Javascript</button>
-                    <button class="filter-btn">React</button>
-                    <button class="filter-btn">Wordpress</button>
-                    <button class="filter-btn">Node</button>
-                    <button class="filter-btn">HTML</button>
+                    <button class="filter-btn active" data-filter="*">All works</button>
+                    <button class="filter-btn" data-filter=".js">Javascript</button>
+                    <button class="filter-btn" data-filter=".react">React</button>
+                    <button class="filter-btn" data-filter=".word">Wordpress</button>
+                    <button class="filter-btn" data-filter=".node">Node</button>
+                    <button class="filter-btn" data-filter=".html">HTML</button>
                 </div>
 
                 <!-- Isotope works on a container element with a group of similar child items. -->
@@ -268,6 +268,56 @@
         </div>
     </section>
     <!-- Portfolio end -->
+
+    <!-- Contact start -->
+    <section class="contact section">
+        <div class="container">
+            <div class="contact-box">
+                <div class="contact-info">
+                    <h3 class="title">Get in touch</h3>
+                    <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, necessitatibus!
+                    </p>
+                    <div class="information-wrap">
+                        <div class="information">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <p class="info-text">J.Zemgulio str.13, Kaunas, Lithuania </p>
+                        </div>
+                        <div class="information">
+                            <div class="contact-icon">
+                                <i class="fas fa-paper-plane"></i>
+                            </div>
+                            <p class="info-text">dovile.keparute@gmail.com </p>
+                        </div>
+                        <div class="information">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <p class="info-text">(+370) 63467263 </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3 class="title">Contact me</h3>
+                    <div class="row">
+                        <input type="text" class="contact-input" placeholder="First Name">
+                        <input type="text" class="contact-input" placeholder="Last Name">
+                    </div>
+                    <div class="row">
+                        <input type="number" class="contact-input" placeholder="Phone">
+                        <input type="email" class="contact-input" placeholder="Email">
+                    </div>
+                    <div class="row">
+                        <textarea name="message" class="contact-input textarea" placeholder="Message"></textarea>
+                    </div>
+                    <a href="#" class="btn">Send</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact end -->
 
     <!-- Isotope library -->
     <script src="./javascript/isotope/isotope.pkgd.min.js"></script>

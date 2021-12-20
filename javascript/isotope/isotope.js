@@ -5,10 +5,14 @@ const filterButtons = document.querySelectorAll(".filter-btn");
 filterButtons.forEach(btn => btn.addEventListener("click", () => {
     filterButtons.forEach((button) => button.classList.remove("active"));
     btn.classList.add("active");
+
+    let filterValue = btn.dataset.filter;
+    // console.log(filterValue);
+    iso.arrange({
+        filter:filterValue
+    })
 })
 );
-
-let element = document.querySelector('.grid');
 
 let iso = new Isotope('.grid', {
     // options
@@ -16,4 +20,3 @@ let iso = new Isotope('.grid', {
     layoutMode: 'fitRows',
     transitionDuration: "0.6s"
 });
-
