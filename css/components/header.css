@@ -50,5 +50,5 @@ nav > .container {
 .header-content .image > .img-element {
     max-width: 500px;
     border: 10px solid var(--main-color);
-    border-radius: 90%;
+    border-radius: 1rem;
 }
