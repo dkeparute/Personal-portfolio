@@ -21,7 +21,7 @@
 .followme > .footer-line {
     width: 60px;
     height: 2px;
-    background-color: var(--light-two);
+    background-color: var(--dark-one);
     margin: 0 1.2rem;
     display: inline-block;
 }
@@ -53,4 +53,25 @@
     color: var(--hover-color);
     cursor: pointer;
     font-weight: 600;
+}
+/* scroll button */
+.back-btn-wrap {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5rem;
+}
+.back-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 75px;
+    background-color: var(--hover-color);
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+.back-btn:hover {
+    background-color: var(--dark-one);
 }
