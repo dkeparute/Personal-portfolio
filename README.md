@@ -20,4 +20,4 @@ This is one of the projects for the Javascript trainings.
 ## Authors
 Student | Description
 ------- | -----------
-Dovile Keparute | Homework No.4 "Coming-soon"
+Dovile Keparute | Portfolio
