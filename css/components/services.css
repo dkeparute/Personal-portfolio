@@ -2,12 +2,10 @@
     background-color: var(--main-color);
     padding: 5.2rem 0;
 }
-
 .section-header {
     text-align: center;
     margin-bottom: 1.5rem;
 }
-
 .title {
     display: inline-block;
     padding-bottom: 1rem;
@@ -17,16 +15,13 @@
     position: relative;
     margin-bottom: 0.6rem;
 }
-
 .services .section-header > .text {
     color: var(--light-two);
 }
-
 h4{
     text-transform: uppercase;
     font-size: 1.5rem;
 }
-
 .services > .container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -36,7 +31,6 @@ h4{
     grid-column-gap: 1.5rem;
     grid-row-gap: 2rem;
 }
-
 .circle {
     width: 180px;
     height: 180px;
@@ -48,15 +42,13 @@ h4{
     justify-content: center;
     color: var(--hover-color);
     background-image: url('../../img/hero/cover.jpg');
+    background-size: cover;
     transition: 1s;
-
 }
-
 .circle:hover{
     color:var(--main-color);
     font-weight: 600;
     cursor: pointer;
     transform: rotate(-360deg);
     transition: 1.5s;
-
 }
