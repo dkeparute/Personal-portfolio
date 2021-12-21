@@ -1,104 +1,49 @@
 .contact {
-    background-color: var(--main-color);
-    width: 100%;
-    padding: 5.5rem 0 8.5rem;
-    position: relative;
+    background-color: var(--light-one);
+    padding: 4.2rem 0;
 }
-.contact-box {
-    width: 100%;
-    background-image: url(../../img/hero/cover.jpg);
-    background-size: cover;
-    border-radius: 25px;
-    padding: 5.5rem 4.5rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.contact .title {
+    color: var(--hover-color);
+    font-size: 2.8rem;
 }
-/* get in touch */
-.contact-info {
-    padding-right: 2rem;
+
+.contact .title:before {
+    color: var(--dark-two);
 }
-.contact-form {
-    padding-left: 2rem;
-}
-.contact-info > .title {
-    color: var(--dark-one);
-}
-.contact-info > .title:after {
+.contact-info .title:after {
     left: 0;
     transform: initial;
 }
-.information-wrap {
-    margin-top: 2rem;
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
+
 .information {
     display: flex;
     align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-.information:not(:last-child) {
-    margin-bottom: 1.3rem;
-}
+
 .contact-icon {
     min-width: 67px;
     height: 67px;
+    display: inline-block;
     border-radius: 50%;
     background-color: var(--hover-color);
-    color: var(--dark-one);
-    display: inline-block;
+    color: var(--light-one);
     text-align: center;
     font-size: 1.4rem;
     margin-right: 1rem;
-}
-.contact-icon > i {
-    line-height: 67px;
-}
-.contact-icon:hover{
-    background-color: var(--light-two);
-}
-.info-text {
-    font-size: 1.3rem;
-    display: inline-block;
-}
-/* contact me */
-.contact-form > .title {
-    margin: 0;
-    color: var(--dark-one);
-}
-.contact-form > .title:after {
-    display: none;
-}
-.contact-form > .row {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-    grid-column-gap: 0.6rem;
-}
-.contact-input {
-    padding: 1.2rem 3.2rem;
-    margin: 0.6rem 0;
-    border: none;
-    outline: none;
-    background-color: var(--light-one);
-    border-radius: 1rem;
-    font-weight: 600;
-    font-size: 1.25rem;
     transition: 0.3s;
 }
-.contact-input::placeholder {
-    color: var(--hover-color);
-    font-weight: 600;
+
+.contact-icon:hover{
+    background-color:darkgray;
 }
-.contact-input:hover {
-    background-color: #ececec;
-}
-.contact-input.textarea {
-    resize: none;
-    min-height: 280px;
-    border-radius: 1rem;
-}
-.contact-form .btn {
-    background-color: var(--hover-color);
-    margin-left: 0.5rem;
-}
-.contact-form .btn:hover{
-    background-color: var(--main-color);
+
+.contact-icon i {
+    line-height: 67px;
 }

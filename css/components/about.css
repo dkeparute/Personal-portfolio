@@ -6,6 +6,7 @@
     margin-bottom: 1.5rem;
     margin: 4rem auto;
 }
+
 .about .title {
     color: var(--hover-color);
 }
@@ -61,7 +62,7 @@
     font-size: 8rem;
     font-weight: 800;
     color: var(--main-color);
-    opacity: 0.04;
+    opacity:0.1;
     top: 0;
     left: 0;
     line-height: 0;

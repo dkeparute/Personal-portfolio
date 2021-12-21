@@ -40,6 +40,12 @@ b:hover{
     font-size: 3.8rem;
     line-height: 0.8;
     color: var(--hover-color);
+    transition: 0.3s;
+}
+
+.header-title:hover{
+    color: var(--main-color);
+    cursor: pointer;
 }
 .text {
     font-size: 1.25rem;

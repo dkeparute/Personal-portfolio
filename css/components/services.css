@@ -1,6 +1,6 @@
 .services {
     background-color: var(--main-color);
-    padding: 5.2rem 0;
+    padding: 4.2rem 0;
 }
 .section-header {
     text-align: center;
@@ -45,10 +45,12 @@ h4{
     background-size: cover;
     transition: 1s;
 }
+
 .circle:hover{
     color:var(--main-color);
     font-weight: 600;
     cursor: pointer;
     transform: rotate(-360deg);
     transition: 1.5s;
+
 }
