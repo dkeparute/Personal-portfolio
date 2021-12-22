@@ -41,7 +41,7 @@
 }
 
 .contact-icon:hover{
-    background-color:darkgray;
+    background-color:var(--main-color);
 }
 
 .contact-icon i {
