@@ -1,6 +1,6 @@
 .contact {
     background-color: var(--light-one);
-    padding: 4.2rem 0;
+    padding: 4.2rem 0 6rem 0;
 }
 .contact .title {
     color: var(--hover-color);
@@ -21,8 +21,9 @@
     color: var(--main-color);
     opacity: 0.05;
     top: 0;
-    left: 0;
+    left: 3rem;
     line-height: 2;
+
 }
 .contact-info {
     display: grid;

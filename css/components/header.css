@@ -2,9 +2,8 @@ header {
     width: 100%;
     overflow: hidden;
     position: relative;
-    background-image: url('../../img/hero/cover.jpg');
+    background-image: url("../../img/hero/cover.jpg");
     background-size: cover;
-
 }
 nav {
     width: 100%;
@@ -46,6 +45,79 @@ nav > .container {
 .links > a.active:hover {
     color: var(--light-one);
     background-color: var(--hover-color);
+}
+/* hamburger menu */
+.hamburger-menu {
+    width: 2.7rem;
+    height: 3rem;
+    z-index: 100;
+    position: relative;
+    display: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.hamburger-menu .bar {
+    position: relative;
+    width: 2.1rem;
+    height: 3px;
+    border-radius: 3px;
+    background-color: var(--main-color);
+    transition: 0.5s;
+}
+
+.bar:before,
+.bar:after {
+    content: "";
+    position: absolute;
+    width: 2.1rem;
+    height: 3px;
+    border-radius: 3px;
+    background-color: var(--main-color);
+    transition: 0.5s;
+}
+
+.bar:before {
+    transform: translateY(-9px);
+}
+
+.bar:after {
+    transform: translateY(9px);
+}
+
+nav.open .hamburger-menu .bar {
+    background-color: transparent;
+    transform: rotate(360deg);
+}
+
+nav.open .hamburger-menu .bar:before {
+    transform: translateY(0) rotate(45deg);
+    background-color: var(--hover-color);
+}
+
+nav.open .hamburger-menu .bar:after {
+    transform: translateY(0) rotate(-45deg);
+    background-color: var(--hover-color);
+}
+
+nav.open .links {
+    transform: translateX(0);
+}
+.header-title {
+    font-size: 3.8rem;
+    line-height: 0.8;
+    color: var(--hover-color);
+    transition: 0.3s;
+}
+.header-title:hover {
+    color: var(--main-color);
+    cursor: pointer;
+}
+.header-content .container.grid-2 {
+    grid-template-columns: 2.5fr 3.5fr;
+    min-height: calc(100vh - 6rem);
+    padding-bottom: 2.5rem;
+    text-align: left;
 }
 .header-content .text {
     margin: 2.15rem 0;
