@@ -3,7 +3,7 @@
   padding: 4rem 0;
 }
 
-.footer> .container {
+.footer > .container {
   margin-top: -4rem;
 }
 
@@ -15,14 +15,12 @@
   justify-content: space-between;
 }
 
-.copyright .text {
+.copyright > .text {
   color: var(--light-two);
-  font-size: 1.2rem;
-  display: inline-block;
-  text-align: center;
+
 }
 
-.copyright .text span {
+.copyright > .text span {
   color: var(--hover-color);
   cursor: pointer;
 }

@@ -6,7 +6,7 @@
 # Portfolio
 ## About
 
-This is one of the projects for the Javascript trainings. 
+This is my personal portfolio where you can find my current works.
 
 ![Portfolio](./img/portfolio/pvz.png)
 
@@ -16,8 +16,10 @@ This is one of the projects for the Javascript trainings.
 - Javscript
 - CSS animations
 - NodeJs
+- HTML
+- CSS
 
 ## Authors
 Student | Description
 ------- | -----------
-Dovile Keparute | Portfolio
+Dovile Keparute | Personal Portfolio

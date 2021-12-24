@@ -1,43 +1,54 @@
 .about {
     overflow: hidden;
 }
+
 .about > .container {
     margin-bottom: 6rem;
 }
+
 .about > .container > .section-header {
     text-align: center;
     margin: 4rem auto;
 }
+
 .about .title {
     color: var(--hover-color);
 }
+
 .about .title:before {
     color: var(--dark-two);
 }
+
 .about img {
     max-width: 500px;
     border: 10px solid var(--main-color);
     border-radius: 1rem;
 }
+
 .about .title-sm {
     color: var(--main-color);
     font-weight: 600;
     font-size: 1.6rem;
 }
+
 .about .text {
     margin-top: 1rem;
 }
+
 .skills {
     margin: 1.5rem 0 2.5rem 0;
 }
+
 .skill {
     margin: 1rem 0;
 }
+
 .skill-title {
     font-weight: 600;
     margin-bottom: 0.3rem;
     color: var(--main-color);
 }
+
 .skill-bar {
     width: 70%;
     height: 8px;
@@ -46,6 +57,7 @@
     position: relative;
     overflow: hidden;
 }
+
 .skill-progress {
     position: absolute;
     height: 100%;
@@ -55,9 +67,11 @@
     background-color: var(--hover-color);
     transition: 2s;
 }
+
 .about .column-2 {
     position: relative;
 }
+
 .about .column-2:before {
     content: "About";
     position: absolute;
