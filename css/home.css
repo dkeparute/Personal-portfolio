@@ -155,13 +155,13 @@
   }
 
   .circle {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border-width: 3px;
   }
 
   .circle h4 {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 
   .contact {
@@ -180,8 +180,7 @@
   }
 
   .contact-info:before {
-    content: "Contact";
-    margin-left: 10rem;
+    display: none;
   }
 
   .footer {
@@ -219,7 +218,7 @@
     height: 45px;
   }
 }
-
+/* ============================================================ */
 @media (max-width: 850px) {
   .grid-2 {
     grid-template-columns: 1fr !important;
@@ -319,16 +318,19 @@
   .contact .title {
     font-size: 2.1rem;
   }
+
   .information {
     font-size: 0.9rem;
     display: block;
     padding: 0.5rem;
   }
+
   .contact-icon {
     margin-bottom: 1rem;
   }
+
   .contact-info:before {
-    font-size: 5rem;
+    display: none;
   }
 
   .bottom-footer {
@@ -344,20 +346,14 @@
     margin-top: 0.8rem;
   }
 }
-
+/* ========================================================== */
 @media (max-width: 600px) {
   .grid-item {
     width: 100%;
   }
-
-  .contact-info:before {
-    font-size: 3rem;
-    line-height: 3.4;
-    margin-left: 8rem;
-  }
-
   .contact-info {
     grid-template-columns: 1fr;
+    margin-bottom: -4rem;
   }
   .information {
     display: block;
@@ -387,13 +383,8 @@
   .contact .title {
     font-size: 1.8rem;
   }
-  .contact-info:before {
-    font-size: 2rem;
-    line-height: 10rem;
-    margin-left: 3rem;
-  }
 
-  .links{
+  .links {
     display: flex;
     flex-direction: column;
   }
